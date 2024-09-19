@@ -35,7 +35,7 @@
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
     "lint": "eslint . -c eslint.config.js --fix",
     "lint:all": "yarn lint .",
-    "release": "npm run build && release-it",
+    "release": "nuxt-module-build && release-it",
     "test": "yarn vitest run"
   },
   "dependencies": {
