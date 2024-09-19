@@ -41,7 +41,6 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
     "@nuxt/kit": "^3.13.2",
-    "consola": "^3.2.3",
     "glob-all": "^3.3.1",
     "pathe": "^1.1.2",
     "purgecss": "^6.0.0"
