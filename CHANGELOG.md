@@ -1,5 +1,33 @@
 
 
+## 1.0.0 (2024-09-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* nuxt3 support (#125)
+
+### Features
+
+* accept module options ([c15f876](https://github.com/luoxiangfan/nuxt-purgecss/commit/c15f876044b7c1c2d60d9dea6a1c47f6f9597516)), closes [#21](https://github.com/luoxiangfan/nuxt-purgecss/issues/21)
+* add nuxt build indicator to whitelist in dev mode ([#85](https://github.com/luoxiangfan/nuxt-purgecss/issues/85)) ([c123fef](https://github.com/luoxiangfan/nuxt-purgecss/commit/c123fefb784c1e16b713f9558a9b13007a9c08f5))
+* add nuxt.config.js to paths to purge classes used there ([3dba75e](https://github.com/luoxiangfan/nuxt-purgecss/commit/3dba75e77a4f268f8a2136aed2ce95ee086b962e))
+* info log when module is disabled by default (in dev mode) ([6996641](https://github.com/luoxiangfan/nuxt-purgecss/commit/699664189639977d4592cb601d515aea9b2e1268)), closes [#23](https://github.com/luoxiangfan/nuxt-purgecss/issues/23)
+* nuxt3 support ([#125](https://github.com/luoxiangfan/nuxt-purgecss/issues/125)) ([24b890e](https://github.com/luoxiangfan/nuxt-purgecss/commit/24b890e022eca04c1af29029b63356d0f9d9d2e2))
+* use official regex and support tailwind ui ([#79](https://github.com/luoxiangfan/nuxt-purgecss/issues/79)) ([ba13564](https://github.com/luoxiangfan/nuxt-purgecss/commit/ba1356439a1f0411d24f5123522b93856407b727))
+
+
+### Bug Fixes
+
+* add `__nuxt` & `__layout` to whitelist ([#36](https://github.com/luoxiangfan/nuxt-purgecss/issues/36)) ([d1fbe53](https://github.com/luoxiangfan/nuxt-purgecss/commit/d1fbe5369310f8611f11131a46b3c3df91b22925))
+* add empty whitelistPatterns and whitelistPatternsChildren ([#30](https://github.com/luoxiangfan/nuxt-purgecss/issues/30)) ([f17667d](https://github.com/luoxiangfan/nuxt-purgecss/commit/f17667d95ed14a9309deff88a4795f304b8c354d))
+* allow absolute paths ([#96](https://github.com/luoxiangfan/nuxt-purgecss/issues/96)) ([3a5075e](https://github.com/luoxiangfan/nuxt-purgecss/commit/3a5075ea7987644328e34da0babc6ad80fbe0751))
+* do not purge vue transition css classes ([#59](https://github.com/luoxiangfan/nuxt-purgecss/issues/59)) ([5dd0972](https://github.com/luoxiangfan/nuxt-purgecss/commit/5dd097259e213504a958d58ef73f43e87c32e68d))
+* purgecss not breaking nuxt-devtools ([#194](https://github.com/luoxiangfan/nuxt-purgecss/issues/194)) ([3b9efda](https://github.com/luoxiangfan/nuxt-purgecss/commit/3b9efdac9f536b6c42c60ac22789f1c19748c82f))
+* return empty array if extractor doesn't match ([c847c34](https://github.com/luoxiangfan/nuxt-purgecss/commit/c847c34da178debe00558bdba811bf652f7fa9e3))
+* **scoped-css:** whitelist data-v-* attributes ([#75](https://github.com/luoxiangfan/nuxt-purgecss/issues/75)) ([f9942de](https://github.com/luoxiangfan/nuxt-purgecss/commit/f9942deab848eb23c588616e51c7560e341a2731))
+* superfluous error message in dev mode ([#4](https://github.com/luoxiangfan/nuxt-purgecss/issues/4)) ([cb38a65](https://github.com/luoxiangfan/nuxt-purgecss/commit/cb38a653bea8008a4eb11315d2c8cf54890cb455))
+
 ## [2.0.0](https://github.com/Developmint/nuxt-purgecss/compare/v1.0.0...v2.0.0) (2022-09-30)
 
 
