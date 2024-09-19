@@ -33,9 +33,9 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "lint": "eslint --ext .js,.ts,.vue --fix",
+    "lint": "eslint . -c eslint.config.js --fix",
     "lint:all": "yarn lint .",
-    "release": "release-it",
+    "release": "npm run build && release-it",
     "test": "yarn vitest run"
   },
   "dependencies": {
