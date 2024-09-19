@@ -1,10 +1,7 @@
 
 import { defineNuxtModule } from '@nuxt/kit'
 import { join, isAbsolute } from 'pathe'
-import consola from 'consola'
 import { DEFAULTS, ModuleOptions } from './config'
-
-const logger = consola.withScope('nuxt:tailwindcss')
 
 export type { ModuleOptions }
 
@@ -23,7 +20,7 @@ export default defineNuxtModule<ModuleOptions>({
   setup ({ enabled, ...purgecssOptions }, nuxt) {
     if (!enabled) {
       const msg = `Purgecss is not enabled!${nuxt.options.dev ? ' Likely because you are in dev mode' : ''}`
-      logger.info(msg)
+      console.info(msg)
       return
     }
 

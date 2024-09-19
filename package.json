@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-purgecss",
-  "version": "2.0.0",
-  "description": "Drop superfluous CSS! A neat PurgeCSS wrapper for Nuxt.js",
+  "name": "nuxt3-purgecss",
+  "version": "0.0.0",
+  "description": "Drop superfluous CSS! A neat PurgeCSS wrapper for Nuxt",
   "keywords": [
     "nuxtjs",
     "nuxt",
@@ -9,7 +9,7 @@
     "purgecss",
     "css"
   ],
-  "repository": "Developmint/nuxt-purgecss",
+  "repository": "luoxiangfan/nuxt-purgecss",
   "license": "MIT",
   "contributors": [
     {
@@ -39,25 +39,24 @@
     "test": "yarn vitest run"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
-    "@nuxt/kit": "^3.2.0",
-    "consola": "^2.15.3",
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "@nuxt/kit": "^3.13.2",
+    "consola": "^3.2.3",
     "glob-all": "^3.3.1",
-    "purgecss": "^5.0.0"
+    "purgecss": "^6.0.0"
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
-    "@nuxt/test-utils": "3.2.0",
-    "@nuxtjs/eslint-config-typescript": "11.0.0",
-    "@release-it/conventional-changelog": "5.1.1",
-    "c8": "^7.13.0",
-    "eslint": "8.35.0",
-    "eslint-config-prettier": "8.6.0",
-    "husky": "8.0.3",
-    "lint-staged": "13.1.4",
-    "nuxt": "npm:nuxt3@3.0.0-rc.13-27772354.a0a59e2",
-    "release-it": "15.6.1",
-    "vitest": "^0.29.8"
+    "@nuxt/test-utils": "^3.14.2",
+    "@release-it/conventional-changelog": "^8.0.2",
+    "c8": "^10.1.2",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "nuxt": "^3.13.2",
+    "release-it": "^17.6.0",
+    "vitest": "^2.1.1"
   },
   "resolutions": {
     "nuxt-purgecss": "link:./"

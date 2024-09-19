@@ -14,27 +14,27 @@
 * Remove unneeded CSS with ease
 * Sane default settings
 * Built on top of [purgecss](https://github.com/FullHuman/purgecss)
-* Nuxt 2 and Nuxt 3 support (Use v1.0.0 for Nuxt2 support for now)
+* Nuxt 3 support
 * Fully tested!
 
 ## Setup
 
-1. Add `nuxt-purgecss` dependency to your project
+1. Add `nuxt3-purgecss` dependency to your project
 
 ```bash
-yarn add --dev nuxt-purgecss # or npm install --save-dev nuxt-purgecss
+yarn add --dev nuxt3-purgecss # or npm install --save-dev nuxt3-purgecss
 ```
 
-2. Add `nuxt-purgecss` to the `modules` section of `nuxt.config.{js,ts}`
+2. Add `nuxt3-purgecss` to the `modules` section of `nuxt.config.{js,ts}`
 
 ```js
 export default {
   modules: [
     // Simple usage
-    'nuxt-purgecss',
+    'nuxt3-purgecss',
 
     // With options
-    ['nuxt-purgecss', { /* module options */ }],
+    ['nuxt3-purgecss', { /* module options */ }],
   ]
 }
 ```
@@ -45,7 +45,7 @@ export default {
 
 ### Defaults
 
-Before diving into the individual attributes, please have a look [at the default settings](https://github.com/Developmint/nuxt-purgecss/blob/main/src/config.ts) of the module.
+Before diving into the individual attributes, please have a look [at the default settings](https://github.com/Developmint/nuxt3-purgecss/blob/main/src/config.ts) of the module.
 
 The defaults will scan all your `.vue`, `.js` and `.ts` files in the common Nuxt folders, as well as checking your `nuxt.config.js` (or `.ts`) for used classes.
 Furthermore, typical classes (like these needed for transitions, the nuxt link ones or those set when using scoped styles) are whitelisted already.
@@ -74,7 +74,7 @@ PurgeCSS-related information.
 // nuxt.config.js
 export default {
   modules: [
-    'nuxt-purgecss',
+    'nuxt3-purgecss',
   ]
 }
 ```
@@ -85,7 +85,7 @@ export default {
 //nuxt.config.js
 export default {
   modules: [
-    'nuxt-purgecss',
+    'nuxt3-purgecss',
   ],
 
   purgecss: {
@@ -110,7 +110,7 @@ export default {
 3. PurgeCSS has been bumped from v2.x to v5.x - Please check the current [config options](https://purgecss.com/configuration.html#options)
 4. Change the module key has been changed to just `purgecss`.
 5. In addition to `enabled`, all purgecss configurations can be written directly into the `purgecss` object.
-6. Eventually, check out the playground of the module and the [current defaults]([at the default settings](https://github.com/Developmint/nuxt-purgecss/blob/main/src/config.ts))!
+6. Eventually, check out the playground of the module and the [current defaults]([at the default settings](https://github.com/Developmint/nuxt3-purgecss/blob/main/src/config.ts))!
 
 
 ## License
@@ -120,17 +120,17 @@ export default {
 Copyright (c) Alexander Lichter
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-purgecss/latest.svg
-[npm-version-href]: https://npmjs.com/package/nuxt-purgecss
+[npm-version-src]: https://img.shields.io/npm/v/nuxt3-purgecss/latest.svg
+[npm-version-href]: https://npmjs.com/package/nuxt3-purgecss
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-purgecss.svg
-[npm-downloads-href]: https://npmjs.com/package/nuxt-purgecss
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt3-purgecss.svg
+[npm-downloads-href]: https://npmjs.com/package/nuxt3-purgecss
 
-[github-actions-ci-src]: https://github.com/Developmint/nuxt-purgecss/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/Developmint/nuxt-purgecss/actions?query=workflow%3Aci
+[github-actions-ci-src]: https://github.com/Developmint/nuxt3-purgecss/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/Developmint/nuxt3-purgecss/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/github/Developmint/nuxt-purgecss.svg
-[codecov-href]: https://codecov.io/gh/Developmint/nuxt-purgecss
+[codecov-src]: https://img.shields.io/codecov/c/github/Developmint/nuxt3-purgecss.svg
+[codecov-href]: https://codecov.io/gh/Developmint/nuxt3-purgecss
 
-[license-src]: https://img.shields.io/npm/l/nuxt-purgecss.svg
-[license-href]: https://npmjs.com/package/nuxt-purgecss
+[license-src]: https://img.shields.io/npm/l/nuxt3-purgecss.svg
+[license-href]: https://npmjs.com/package/nuxt3-purgecss
