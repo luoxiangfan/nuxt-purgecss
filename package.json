@@ -43,20 +43,20 @@
     "@nuxt/kit": "^3.14.0",
     "glob-all": "^3.3.1",
     "pathe": "^1.1.2",
-    "purgecss": "^6.0.0"
+    "purgecss": "^7.0.2"
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
     "@nuxt/test-utils": "^3.14.4",
-    "@release-it/conventional-changelog": "^9.0.2",
+    "@release-it/conventional-changelog": "^9.0.3",
     "c8": "^10.1.2",
-    "eslint": "^9.14.0",
+    "eslint": "^9.15.0",
     "eslint-config-prettier": "^9.1.0",
-    "husky": "^9.1.6",
+    "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
-    "nuxt": "^3.14.0",
+    "nuxt": "^3.14.1592",
     "release-it": "^17.10.0",
-    "vitest": "^2.1.4",
+    "vitest": "^2.1.6",
     "yarn": "^1.22.22"
   },
   "resolutions": {
