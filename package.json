@@ -34,13 +34,13 @@
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
     "lint": "eslint . -c eslint.config.js --fix",
-    "lint:all": "yarn lint .",
-    "release": "nuxt-module-build && release-it",
-    "test": "yarn vitest run"
+    "lint:all": "npm run lint .",
+    "release": "nuxt-module-build && npm publish",
+    "test": "vitest run"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^6.0.0",
-    "@nuxt/kit": "^3.14.0",
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "@nuxt/kit": "^3.14.1592",
     "glob-all": "^3.3.1",
     "pathe": "^1.1.2",
     "purgecss": "^7.0.2"
@@ -48,16 +48,13 @@
   "devDependencies": {
     "@nuxt/module-builder": "latest",
     "@nuxt/test-utils": "^3.14.4",
-    "@release-it/conventional-changelog": "^9.0.3",
     "c8": "^10.1.2",
-    "eslint": "^9.15.0",
+    "eslint": "^9.16.0",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "nuxt": "^3.14.1592",
-    "release-it": "^17.10.0",
-    "vitest": "^2.1.6",
-    "yarn": "^1.22.22"
+    "vitest": "^2.1.8"
   },
   "resolutions": {
     "nuxt-purgecss": "link:./"
