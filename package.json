@@ -9,7 +9,10 @@
     "purgecss",
     "css"
   ],
-  "repository": "luoxiangfan/nuxt-purgecss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoxiangfan/nuxt-purgecss.git"
+  },
   "license": "MIT",
   "contributors": [
     {
