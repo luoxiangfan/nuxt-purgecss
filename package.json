@@ -1,6 +1,6 @@
 {
-  "name": "nuxt4-purgecss",
-  "version": "2.0.0",
+  "name": "nuxtpurgecss",
+  "version": "4.0.0",
   "description": "Drop superfluous CSS! A neat PurgeCSS wrapper for Nuxt",
   "keywords": [
     "nuxtjs",
